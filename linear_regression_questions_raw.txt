@@ -1,0 +1,100 @@
+1. How does the house pricing example relate to linear regression?
+2. What do the slope and intercept represent in the house pricing model?
+3. Why does changing the slope affect the predicted price of a house?
+4. If a house’s size is zero, does the intercept always equal the price?
+5. Can we use more than one feature (like location, number of rooms) in the linear model?
+6. How do we interpret the coefficients of the model in a real-world scenario?
+7. What are some assumptions we make in a simple house price prediction model?
+8. Can a linear regression model for house prices ever have a negative slope?
+9. What happens if we ignore important features like neighborhood or school district in a house pricing model?
+10. How does adding more data points affect the accuracy of our house pricing model?
+11. How do we determine if a linear regression model is good?
+12. What does R² actually tell us about the regression model?
+13. Why do we look at residuals to check the quality of a regression model?
+14. What happens if the data is not actually linear?
+15. Is a higher R² value always better?
+16. What does adjusted R² do differently than regular R²?
+17. What are some common reasons for a poor-performing linear regression model?
+18. Can a model with a high R² still be misleading?
+19. Why do we check for homoscedasticity in linear regression?
+20. What’s the difference between underfitting and overfitting in linear regression?
+21. How do we derive the cost function for linear regression?
+22. Why do we use the squared differences instead of absolute differences?
+23. Where does the (1/2m) factor come from in the cost function?
+24. What does the cost function actually represent?
+25. Why do we need a cost function in the first place?
+26. How does the mean squared error (MSE) compare to the mean absolute error (MAE)?
+27. What happens if we minimize MAE instead of MSE?
+28. How do outliers affect the cost function in linear regression?
+29. Can we modify the cost function to be more robust to outliers?
+30. What are some alternative loss functions for linear regression?
+31. How does minimizing the cost function improve linear regression?
+32. Why can’t we just try all possible slopes and intercepts to find the best one?
+33. How do we know when gradient descent has converged?
+34. What happens if we take too large of a step in gradient descent?
+35. Why does gradient descent sometimes get stuck in a bad solution?
+36. How does batch gradient descent compare to stochastic gradient descent (SGD)?
+37. Why does mini-batch gradient descent help improve convergence?
+38. What is the role of momentum in gradient descent?
+39. What happens if we initialize gradient descent with bad starting values?
+40. Can gradient descent be used with non-linear models?
+41. How does gradient descent update the slope and intercept?
+42. What does the learning rate do in gradient descent?
+43. Why do we need derivatives in gradient descent?
+44. Can we use gradient descent if our cost function is not convex?
+45. What happens if we set the learning rate too high or too low?
+46. What are some alternative optimization algorithms to gradient descent?
+47. How does the Adam optimizer compare to standard gradient descent?
+48. What is learning rate decay, and why do we use it?
+49. Can gradient descent work with categorical variables?
+50. Why does gradient descent take longer for high-dimensional datasets?
+51. Once we have a trained linear model, how do we use it to make predictions?
+52. How do we interpret the coefficients in a multiple linear regression?
+53. What does it mean if the intercept is negative?
+54. How do we compare two different linear regression models?
+55. What are some real-world limitations of linear regression?
+56. How do we handle multicollinearity in linear regression?
+57. Can we use linear regression for time-series forecasting?
+58. How does adding interaction terms affect a linear regression model?
+59. Why do we check residual plots after fitting a regression model?
+60. What are some techniques to improve a linear regression model?
+61. Why is the Mean Squared Error (MSE) function convex for linear regression?
+62. How do we derive the partial derivatives of the MSE cost function?
+63. Why do we square the error terms in MSE instead of using absolute values?
+64. What is the geometric interpretation of minimizing MSE?
+65. How does MSE compare to other cost functions like MAE or Huber loss?
+66. Can we modify the MSE cost function to be more robust against outliers?
+67. Why does minimizing MSE also minimize variance in our predictions?
+68. How does the variance of the residuals relate to the MSE?
+69. Why do we include the 1/2m factor in the cost function for gradient descent?
+70. Can we analytically find the minimum of MSE without gradient descent?
+71. Why does gradient descent work for minimizing differentiable cost functions?
+72. What is the mathematical justification for the gradient pointing in the direction of steepest ascent/descent?
+73. How do we prove that gradient descent will converge to a local minimum?
+74. What role does the Hessian matrix play in analyzing gradient descent convergence?
+75. Why does the learning rate affect the convergence speed of gradient descent?
+76. How do we derive the update rule for gradient descent step-by-step?
+77. Can we compute the optimal learning rate mathematically?
+78. What happens if we take the derivative of the cost function with respect to the learning rate?
+79. How does the number of features (dimensions) affect gradient descent convergence?
+80. Can we interpret gradient descent as solving a system of differential equations?
+81. How does the learning rate influence gradient descent?
+82. Why does a too-large learning rate cause oscillations in gradient descent?
+83. What are saddle points, and how does gradient descent behave near them?
+84. Why does gradient descent get stuck in local minima in non-convex cost functions?
+85. What are the mathematical conditions for gradient descent convergence?
+86. How does the choice of the loss function impact gradient descent updates?
+87. Why does stochastic gradient descent introduce noise into the optimization process?
+88. How does weight initialization impact gradient descent’s performance?
+89. Can gradient descent be seen as an approximation to second-order optimization methods?
+90. What is the connection between gradient descent and Newton’s method?
+91. Why does adding momentum help gradient descent escape saddle points?
+92. How do we mathematically derive the momentum term in gradient descent?
+93. What is the mathematical intuition behind Adam optimization?
+94. Why does the Adam optimizer include bias correction terms?
+95. What is the impact of adaptive learning rates on convergence stability?
+96. How does gradient clipping affect the magnitude of weight updates?
+97. What is the difference between first-order and second-order optimization methods?
+98. Why does L2 regularization (ridge regression) modify the gradient descent update rule?
+99. How does the condition number of the feature matrix affect convergence in gradient descent?
+100. What is the significance of the eigenvalues of the Hessian in understanding gradient descent behavior?

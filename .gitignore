@@ -1,0 +1,10 @@
+embeddings-venv/
+.env
+linear_regression_questions_processed.txt
+question_embeddings.csv
+question_similarity_matrix.csv
+similarity_heatmap.png
+categorized_questions.txt
+labeled_clusters.json
+question_clusters.json
+question_clusters.png
