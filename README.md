@@ -53,6 +53,18 @@ This sample dataset demonstrates how the toolkit can help instructors identify c
 
 ## Usage
 
+0. Install required packages (via pip) and configure environment variables:
+
+```
+pip install -r requirements.txt
+```
+
+OpenAI API key (in .env file):
+
+```
+OPENAI_API_KEY=<your-openai-api-key>
+```
+
 1. Preprocess raw questions:
 
    ```
@@ -75,21 +87,6 @@ This sample dataset demonstrates how the toolkit can help instructors identify c
    ```
    python label_clusters.py
    ```
-
-## Requirements
-
-- Python 3.6+
-- Required packages (install via pip):
-  - numpy
-  - pandas
-  - scikit-learn
-  - transformers (for embeddings)
-  - openai (for LLM)
-  - dotenv (for environment variables)
-  - nltk (for tokenization)
-  - sentence-transformers (for embeddings)
-  - sklearn (for clustering)
-  - pandas (for data manipulation)
 
 ## Example Output
 
