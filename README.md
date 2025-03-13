@@ -55,15 +55,17 @@ This sample dataset demonstrates how the toolkit can help instructors identify c
 
 0. Install required packages (via pip) and configure environment variables:
 
-```
-pip install -r requirements.txt
-```
+   ```
+   python -m venv embeddings-venv
+   source embeddings-venv/bin/activate # On Windows: embeddings-venv\Scripts\activate
+   pip install -r requirements.txt
+   ```
 
 OpenAI API key (in .env file):
 
-```
-OPENAI_API_KEY=<your-openai-api-key>
-```
+    ```
+    OPENAI_API_KEY=<your-openai-api-key>
+    ```
 
 1. Preprocess raw questions:
 
