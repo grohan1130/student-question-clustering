@@ -53,7 +53,7 @@ This sample dataset demonstrates how the toolkit can help instructors identify c
 
 ## Usage
 
-0. Install required packages (via pip) and configure environment variables:
+1. Install required packages (via pip):
 
    ```
    python -m venv embeddings-venv
@@ -61,31 +61,31 @@ This sample dataset demonstrates how the toolkit can help instructors identify c
    pip install -r requirements.txt
    ```
 
-OpenAI API key (in .env file):
+2. Configure environment variables (OpenAI API key in .env file):
 
-    ```
-    OPENAI_API_KEY=<your-openai-api-key>
-    ```
+   ```
+   OPENAI_API_KEY=<your-openai-api-key>
+   ```
 
-1. Preprocess raw questions:
+3. Preprocess raw questions:
 
    ```
    python preprocess_raw_questions.py
    ```
 
-2. Generate embeddings for the questions:
+4. Generate embeddings for the questions:
 
    ```
    python generate_embeddings.py
    ```
 
-3. Compute similarity between questions:
+5. Compute similarity between questions:
 
    ```
    python compute_similarity.py
    ```
 
-4. Label and categorize question clusters:
+6. Label and categorize question clusters:
    ```
    python label_clusters.py
    ```
